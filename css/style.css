@@ -35,7 +35,7 @@ nav a:focus{
 
   /* Requirement 4 code here -- Do not remove this comment. */
 .intro {
-  background-image: url('images/header.jpg');
+  background-image: url('/images/header.jpg');
   color: #858585;
   min-height: 400px;
   background-attachment: fixed;
@@ -147,7 +147,8 @@ img{
 }
 
 .about-image, .method-image, .clients-image, .contact-image{
-  margin: 2%;
+  /* display: grid; */
+  overflow: hidden;
 }
 
 
