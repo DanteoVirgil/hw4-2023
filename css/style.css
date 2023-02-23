@@ -35,7 +35,7 @@ nav a:focus{
 
   /* Requirement 4 code here -- Do not remove this comment. */
 .intro {
-  background-image: url('../header.jpg');
+  background-image: url('/images/header.jpg');
   color: #858585;
   min-height: 400px;
   background-attachment: fixed;
@@ -129,8 +129,8 @@ img{
   /* Requirement 12 code here -- Do not remove this comment. */
 .container{
   display: grid;
-  grid-template-columns: 50px, auto, 500px, auto, 50px;
-  grid-template-rows: 300px, 300px, 300px, 300px;
+  grid-template-columns: 50px auto 500px auto 50px;
+  grid-template-rows: 300px 300px 300px 300px;
 }
 
   /* Requirement 13 code here -- Do not remove this comment. */
